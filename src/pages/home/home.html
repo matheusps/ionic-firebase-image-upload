@@ -10,5 +10,7 @@
   <div *ngIf="image">
     <img src="{{image}}" width="300px" />
   </div>
+
   <button ion-button color="primary" (click)="presentSheet()">Take Picture</button>
+  <button ion-button color="danger" (click)="uploadImg()"> Upload </button>
 </ion-content>
